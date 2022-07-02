@@ -19,3 +19,45 @@ main {
 }
 
 /* component styles */
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: inherit;
+
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-left img {
+    height: 100%;
+    width: auto;
+}
+
+.header-right {
+    margin-right: 10px;
+}
+
+.header-right ul {
+    list-style-type: none;
+    text-decoration: underline;
+    display: flex;
+}
+
+.header-right li+li {
+    margin-left: 15px;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+/* Section Styles */
