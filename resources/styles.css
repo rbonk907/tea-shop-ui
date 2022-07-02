@@ -76,3 +76,32 @@ section .mission-statement {
     padding: 10px;
 }
 
+section.monthly-tea {
+    width: 1000px;
+    text-align: center;
+    margin: 50px auto;
+
+    /* border: 2px solid red; */
+}
+
+section.monthly-tea > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section .featured-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px dotted red; */
+
+    margin: 0 -25px;
+}
+
+.featured-content figure {
+    margin: 10px 25px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
